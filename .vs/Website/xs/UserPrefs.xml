@@ -1,20 +1,25 @@
-﻿<Properties StartupConfiguration="{EB8FB3C8-419A-41AF-8E7B-973C64DA6075}|https">
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{8EDF8CE5-E8F8-48C3-BA1A-DF41C3A09448}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Website PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Dockerfile">
+    <Files>
+      <File FileName="Dockerfile" Line="16" Column="37" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Website" expanded="True">
-            <Node name="Website" expanded="True" selected="True" />
+          <Node name="Website">
+            <Node name="Website">
+              <Node name="Dockerfile" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Website PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
