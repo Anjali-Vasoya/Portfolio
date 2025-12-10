@@ -1,0 +1,375 @@
+﻿body {
+    font-family: "Segoe UI", sans-serif;
+    background: #fdfdfd;
+    color: #333;
+}
+
+.hero {
+    height: 80vh;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero-title {
+    font-size: 55px;
+    font-weight: 800;
+    color: black;
+}
+
+    .hero-title span {
+        color: #0077ff;
+    }
+
+.hero-subtitle {
+    font-size: 20px;
+    margin: 15px 0;
+    color: #555;
+}
+
+.btn-main {
+    background: #0077ff;
+    padding: 12px 35px;
+    border-radius: 40px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+    .btn-main:hover {
+        background: #005fcc;
+    }
+
+/* Sections */
+.section {
+    padding: 70px 60px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.bg-light {
+    background: #f2f5f8;
+}
+
+/* Skills */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.skill-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 18px;
+/*    font-weight: 600;*/
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+/* Projects */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.project-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+.footer {
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    color: #555;
+    border-top: 1px solid #eee;
+}
+
+
+
+
+
+
+
+/* Glass Card */
+.glass-card {
+    backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.12);
+    padding: 40px 70px;
+    border-radius: 18px;
+    border: 1px solid rgba(255,255,255,0.25);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+}
+
+/* Title & Subtitle */
+.hero-title {
+    font-size: 60px;
+    font-weight: 800;
+    color: #fff;
+}
+
+    .hero-title span {
+        color: #ffd369;
+    }
+
+.hero-subtitle {
+    font-size: 22px;
+    margin: 10px 0 25px 0;
+    color: #eaeaea;
+}
+
+/* Button */
+.btn-main {
+    background: #ffd369;
+    padding: 12px 35px;
+    border-radius: 40px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+    .btn-main:hover {
+        background: #ffbe0b;
+        transform: translateY(-3px);
+    }
+
+/* Animations */
+.fade-in-up {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeUp 1s forwards;
+}
+
+.delay-1 {
+    animation-delay: 0.4s;
+}
+
+.delay-2 {
+    animation-delay: 0.8s;
+}
+
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 40px;
+    }
+
+    .glass-card {
+        padding: 30px 40px;
+    }
+
+    .hero-subtitle {
+        font-size: 18px;
+    }
+}
+
+.about-me {
+    padding: 10%;
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #B7B89F;
+}
+
+.about-header h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.about-header .highlight {
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+.about-header p {
+    font-size: 18px;
+    color: #ddd;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.05);
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+    .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+    }
+
+.card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.skill-list {
+    list-style: none;
+    padding: 0;
+}
+
+    .skill-list li {
+        margin: 10px 0;
+        padding: 8px 12px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 50px;
+        display: inline-block;
+        margin-right: 5px;
+    }
+
+
+/* Section Styling */
+.contact-section {
+    background: #f9f9f9;
+}
+
+/* Card Styling */
+.contact-card {
+    border-radius: 15px;
+    background: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .contact-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 25px rgba(0,0,0,0.15);
+    }
+
+/* Floating Labels */
+.form-floating .form-control:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 0.2rem rgba(74,144,226,0.25);
+}
+
+/* Button Styling */
+.btn-send {
+    background: linear-gradient(45deg, #4a90e2, #357ab8);
+    border: none;
+    padding: 10px 30px;
+    font-weight: 600;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+    .btn-send:hover {
+        background: linear-gradient(45deg, #357ab8, #4a90e2);
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+/* Section Title */
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2c3e50;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+    /* Optional underline */
+    .section-title::after {
+        content: "";
+        width: 60px;
+        height: 3px;
+        background-color: #4a90e2;
+        display: block;
+        margin: 10px auto 0;
+        border-radius: 2px;
+    }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .contact-card {
+        padding: 20px;
+    }
+
+    .btn-send {
+        width: 100%;
+    }
+}
+
+
+/* Card Comes From Left Edge */
+.slide-edge-left {
+    opacity: 0;
+    transform: translateX(-100vw); /* starts fully off-screen left */
+    animation: fromLeft 1s ease-out forwards;
+}
+
+/* Card Comes From Right Edge */
+.slide-edge-right {
+    opacity: 0;
+    transform: translateX(100vw); /* starts fully off-screen right */
+    animation: fromRight 1s ease-out forwards;
+    animation-delay: 0.2s; /* optional delay */
+}
+
+/* KEYFRAMES */
+@keyframes fromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100vw);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fromRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100vw);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

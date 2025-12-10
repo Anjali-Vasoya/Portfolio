@@ -1,0 +1,96 @@
+﻿@{
+    ViewData["Title"] = "Projects";
+}
+
+<section class="about-me">
+    <div class="container">
+            <h2 class="fade-in-up" style="color: black; text-align: center; margin-bottom: 3%; font-size: 50px;">Work Showcase</h2></>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card skill-card slide-right" style="background-color: lightgray;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Yale University</h5>
+                            <div style="padding: 15px; border-radius: 10px; color: #333; margin-top: 10px;text-align: justify;box-shadow: 0 2px 8px rgba(0,0,0,0.1); ">
+                                <p class="card-text flex-grow-1" style="font-weight:300;">
+                                    Built a healthcare analytics dashboard that presents patient demographics
+                                    and health insights, along with center wise patient distribution
+                                    for easy comparison and performance analysis using interactive charts.</p>
+                                    <h5 style="font-weight:bold;">Frontend Technologies</h5>
+                                    <i class="devicon-html5-plain colored"></i>
+                                    <i class="devicon-css3-plain colored"></i>
+                                    <i class="devicon-javascript-plain colored"></i>
+                                    <i class="devicon-jquery-plain colored"></i>
+                                    <h5 style="font-weight:bold;">Backend Technologies</h5>
+                                    <i class="devicon-dotnetcore-plain colored"></i>
+                                    <i class="devicon-csharp-plain colored"></i>
+                                    <i class="devicon-dotnet-plain colored"></i>
+                                    <i class="devicon-microsoftsqlserver-plain colored"></i>
+                                    <i class="devicon-azure-plain colored"></i>    
+
+</div>
+                                <a href="https://www.yale.edu" class="btn btn-primary mt-3">View Project</a>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card skill-card slide-left" style="background-color: lightgray;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Presort EMS</h5>
+                            <div style="padding: 15px; border-radius: 10px; color: #333; margin-top: 10px;text-align: justify;box-shadow: 0 2px 8px rgba(0,0,0,0.1); ">
+                                <p class="card-text flex-grow-1" style="font-weight:300;">
+                                    Developed a web-based mailing management platform for mail service organizations.
+                                    Added real-time tracking, reporting capabilities, and automated processes to improve operational efficiency.
+
+                                </p>
+                                <h5 style="font-weight:bold;">Frontend Technologies</h5>
+                                <i class="devicon-bootstrap-plain colo"></i>
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Blazor.png" width="25">
+                                <i class="devicon-html5-plain colored"></i>
+                                <i class="devicon-css3-plain colored"></i>
+                                <i class="devicon-javascript-plain colored"></i>
+                                <h5 style="font-weight:bold;">Backend Technologies</h5>
+                                <i class="devicon-dotnetcore-plain colored"></i>
+                                <i class="devicon-csharp-plain colored"></i>
+                                <i class="devicon-dotnet-plain colored"></i>
+                                <i class="devicon-microsoftsqlserver-plain colored"></i>
+                                <i class="devicon-git-plain colored"></i>
+
+                            </div>
+                                <a href="https://presortems.com/" class="btn btn-primary mt-3">View Project</a>
+                            </div>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+</section>
+
+
+@{
+    ViewData["Title"] = "Projects";
+}
+
+<!-- Add this CSS -->
+<style>
+
+    /* Slide in animations */
+    .slide-left {
+        opacity: 0;
+        transform: translateX(-100px);
+        animation: slideLeft 1s forwards;
+    }
+
+    .slide-right {
+        opacity: 0;
+        transform: translateX(100px);
+        animation: slideRight 1s forwards;
+    }
+
+    @@keyframes slideLeft {
+        to { opacity: 1; transform: translateX(0); }
+    }
+
+    @@keyframes slideRight {
+        to { opacity: 1; transform: translateX(0); }
+    }
+</style>
